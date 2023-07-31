@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rodrigo Costa - Diseñador web</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+    
+    <nav class="main-index">
+      <ul>
+        <li><a href="#about_me">Acerca de mí</a></li>
+        <li><a href="#work_exp">Experiencia laboral</a></li>
+        <li><a href="#academics">Formación académica</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Rodrigo Costa</h1>
+  <hr>
+  <h2>Aspirante a diseñador web</h2>
+  <div id="introduction">
+    <table>
+      <tr>
+        <td>
+          <div id="about_me">
+            <h3>Acerca de mí</h3>
+            <p class="p-content">
+              Joven de 24 años en búsqueda de su primera experiencia laboral como <strong>desarrollador web</strong>. Poseo conocimientos en <span>HTML, CSS y JavaScript</span>. Cuento con un sólido soporte de habilidades blandas en constante desarrollo, apasionado por ser autodidacta y seguir progresando constantemente. Actualmente resido en <strong>Uruguay</strong>.
+            </p>
+          </div>
+        </td>
+        <td>
+          <img src="cv.jpeg" id="cv-pic" alt="Foto CV">
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <hr>
+
+  <div>
+    <h3 id="work_exp">Experiencia laboral</h3> 
+    <table id="worktable">
+      <tr>
+        <th>Puesto</th>    
+        <th>Descripción</th> 
+        <th>Duración</th> 
+      </tr>
+      <tr>
+        <td>Asistente de Gerente - Adiser SA</td>
+        <td>
+          <ul>
+            <li>Control de personal, horarios y capacitación</li>
+            <li>Arqueos, cierres y aperturas de caja</li>
+            <li>Control de inventarios y orden de depósito</li>
+            <li>Seguimiento de ventas y <strong> manejo de software administrativo</strong></li>
+          </ul>
+        </td>
+        <td>Marzo de 2019 hasta julio de 2021</td>
+      </tr>
+      <tr>
+        <td>Encargado de local Tasty Woks n Ramen</td>
+        <td>
+          <ul>
+            <li>Control de personal, seguimiento y capacitación del mismo</li>
+            <li><strong> Auxiliar administrativo<strong> , cajero y auxiliar de cocina</li>
+            <li>Control de gastos y elaboración de planes para impulsar la ganancia bruta del local</li>
+            <li>Manejo de proveedores y reportes semanales</li>
+          </ul>
+        </td>
+        <td>Enero 2021 hasta Enero 2023</td>
+      </tr>
+      <tr>
+        <td>Supervisor de Tete Bagels & Ensaladas</td>
+        <td>
+          <ul>
+            <li>Capacitación de empleados</li>
+            <li>Encargado de logística de 3 locales simultáneos</li>
+            <li><strong> Manejo óptimo de Soft Restaurant<strong> </li>
+            <li>Seguimiento detallado de gastos e inventarios</li>
+          </ul>
+        </td>
+        <td>Octubre de 2022 hasta la fecha</td>
+      </tr>
+    </table>
+  </div>
+
+  <hr>
+
+  <div>
+    <h3 id="academics">Formación académica</h3>
+    <table>
+      <tr>
+        <th>Bachillerato</th>
+        <th>Alianza URU-USA</th>
+        <th>Jóvenes a Programar</th>
+        <th>El Taller</th>
+      </tr>
+      <tr>
+        <td><img class="icons" src="bachiller.jpg" alt="Bachillerato"></td>
+        <td><img class="icons" src="alianza.jpeg" alt="Alianza URU-USA"></td>
+        <td><img class="icons" src="jap.jpg" alt="Jóvenes a Programar"></td>
+        <td><img class="icons" src="eltaller.jpg" alt="El Taller"></td>
+      </tr>
+      <tr>
+        <td>Bachillerato <strong> completo </strong> en Liceo Shangrila</td>
+        <td>Certificado de inglés B2, <strong> High Intermediate</strong> </td>
+        <td><strong> Cursando actualmente </strong>  la fase 2 de Desarrollo Web</td>
+        <td>Certificado de <strong> Excel Intermedio</strong> </td>
+      </tr>
+    </table>
+  </div>
+
+  <hr>
+
+  <div>
+    <h3 id="contact">Contacto</h3>
+    <form action="#" method="get">
+      <p>Deja tus datos y <strong> me pondré en contacto contigo</strong>  lo antes posible:<br>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Rodrigo Costa"><br>
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" placeholder="tumail@gmail.com"><br>
+        Motivo de consulta:<br>
+        <label><input type="radio" name="consulta" value="Propuesta de trabajo">Propuesta de trabajo</label>
+        <label><input type="radio" name="consulta" value="presupuesto">Presupuesto</label>
+        <label><input type="radio" name="consulta" value="Otros">Otros</label><br>
+        Especifica, por favor:<br>
+        <textarea name="request_description" placeholder="Escribe aquí"></textarea><br>
+        <input type="submit" value="Enviar mi consulta">
+      </p>
+    </form>
+  </div>
+</body>
+</html>
